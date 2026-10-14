@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Side Ledger Support</title>
+<meta name="description" content="Support and help for Side Ledger, a universal app for Mac, iPhone and iPad that tracks a UK side hustle: gigs, invoices, expenses, mileage and tax-year reports, with optional YNAB payment matching.">
+<meta property="og:title" content="Side Ledger Support">
+<meta property="og:description" content="Help and contact for Side Ledger: gigs, invoices, expenses and mileage for UK sole traders, ready for Self Assessment.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site-head">
+    <a class="brand" href="index.html">
+      <span class="tile">£</span>
+      <b>Side&nbsp;Ledger</b>
+    </a>
+    <nav class="nav">
+      <a href="index.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Mac · iPhone · iPad</p>
+        <h1 class="reveal">Your side hustle,<br>in order<span class="dot">.</span></h1>
+        <p class="lede reveal">Side Ledger tracks gigs, invoices, expenses and mileage for UK sole traders and turns them into tax-year reports ready for Self Assessment. One universal app, synced through your own iCloud.</p>
+        <div class="cta reveal">
+          <a class="btn btn-primary" href="#help">Get help</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="cluster" aria-hidden="true">
+        <div class="sheet sheet--back">
+          <span class="tag">Pro forma</span>
+          <div class="ttl">DL-0042</div>
+          <div class="row"><span>NPLQ Exam</span><span>£150.00</span></div>
+          <div class="row"><span>Pool Lifeguard</span><span>£150.00</span></div>
+          <div class="row total"><span>Total</span><span>£300.00</span></div>
+        </div>
+        <div class="sheet sheet--front">
+          <span class="tag">Invoice</span>
+          <div class="ttl">SM-0017</div>
+          <div class="row"><span>Timing, Sat</span><span>£260.00</span></div>
+          <div class="row"><span>Timing, Sun</span><span>£260.00</span></div>
+          <div class="row total"><span>Total</span><span>£520.00</span></div>
+          <span class="paid">Paid · YNAB</span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section id="help">
+      <div class="section-head">
+        <h2>Getting started</h2>
+        <p>Three steps from a gig in your calendar to a paid invoice in your report.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>Add your suppliers</h3>
+          <p>Each supplier gets its own invoice prefix, rate card and (if they need one) a purchase-order step. Set up your business profile once.</p>
+        </div>
+        <div class="step">
+          <h3>Log gigs, expenses and miles</h3>
+          <p>Add gigs by hand, with Siri, or straight from a calendar event with the included shortcut. Mark a gig attended and the mileage is logged for you.</p>
+        </div>
+        <div class="step">
+          <h3>Invoice and report</h3>
+          <p>Raise an invoice from one or more gigs, export the PDF, email it, mark it paid (or let YNAB spot the payment), then export the tax-year report.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="section-head">
+        <h2>Questions &amp; answers</h2>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>Where is my data kept? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>On your devices, synced through your own private iCloud database. There are no Side Ledger accounts and no server of ours in between. The developer cannot see your records. See the <a href="privacy.html">privacy policy</a>.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Can I get my data out? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>Always. Settings → Data exports everything as a zip of plain JSON plus your receipt images, and you can import it back on another device or keep it as a backup. Reports export as CSV and XLSX. None of that needs a purchase.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What do I have to pay for? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>Two things, both optional. <strong>PDF export</strong> is a one-time purchase and covers exporting, sharing and emailing invoice PDFs. <strong>YNAB Sync</strong> is a monthly or yearly subscription. Everything else, including previews, email text, reports and the full data export, is free.</p>
+            <p>Purchases are handled by the App Store. Use <strong>Restore Purchases</strong> on a new device, and manage or cancel the subscription in your Apple Account settings.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How does the YNAB link work? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>Settings → YNAB signs you in with YNAB (read-only). You pick the plan and the accounts your invoice payments arrive in. Side Ledger then reads new incoming transactions and suggests which invoice each one pays. Nothing is marked paid until you tap <strong>Confirm</strong>, and <strong>Not this one</strong> hides a payment for good.</p>
+            <p>Side Ledger never writes to YNAB. It cannot add, edit, categorise or delete transactions.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Pro forma, PO, invoice: what is the flow? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>For suppliers who need a purchase order, Side Ledger raises a pro forma first. When the PO number arrives, add it and the same document becomes the invoice. Suppliers who do not need a PO go straight to invoice. Invoices can be re-issued at any time.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How does mileage work? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>Give each venue a round-trip distance from home. When you mark a gig attended, a mileage entry is created for you at HMRC's simplified rate. You can change the number of trips (multi-day gigs often need more than one) or add entries by hand.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Which tax year does the report use? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>The UK tax year (6 April to 5 April) by default, on an invoice-date or paid-date basis, with your own custom year-end if you need one. Expense categories map to the boxes on the SA103F self-employment pages.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Siri, Shortcuts and the widget <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>Side Ledger adds actions to Shortcuts and Siri: Add Gig, Mark Gig Attended, Get Gigs Needing Invoices, Get Unpaid Invoices, Add Expense, Add Mileage, Open Invoice and Open Gig. They appear after the app's first launch. The widget shows what needs invoicing, what is awaiting a PO and what is unpaid.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What do I need to run it? <span class="mk">+</span></summary>
+          <div class="ans">
+            <p>A Mac running <strong>macOS 26</strong> or later, or an iPhone or iPad running <strong>iOS or iPadOS 26</strong> or later, signed in to iCloud. It is a universal app, so one purchase covers all three.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section id="contact">
+      <div class="section-head">
+        <h2>Still stuck? Get in touch.</h2>
+        <p>Found a bug, or have an idea for a feature? I read every message and usually reply within a few days.</p>
+      </div>
+      <div class="contact">
+        <a class="mail" href="mailto:support@rainsbury.com?subject=Side%20Ledger%20support">support@rainsbury.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <span class="foot-brand"><span class="tile">£</span> © 2026 A Rainsbury</span>
+    <span><a href="privacy.html">Privacy policy</a> · <a href="mailto:support@rainsbury.com">Support</a></span>
+  </footer>
+
+</div>
+</body>
+</html>
